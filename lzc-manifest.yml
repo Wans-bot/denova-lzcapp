@@ -1,0 +1,7 @@
+application:
+  subdomain: denova
+  routes:
+    - /=http://denova.cloud.lazycat.app.denova.lzcapp:8080
+services:
+  denova:
+    image: registry.lazycat.cloud/wans/wans/denova:f41e05b8cdac3edd

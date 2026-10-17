@@ -1,0 +1,66 @@
+package: cloud.lazycat.app.denova
+version: 0.5.1-1
+name: Denova
+description: 面向小说写作与 AI 角色扮演的一体化 AI 创作平台，内置 AI Agents、Skills、SubAgent 协作、自动化、图像生成与项目版本管理。
+author: alfredxw
+license: Apache-2.0
+homepage: https://github.com/alfredxw/denova
+locales:
+  zh-CN:
+    name: Denova
+    description: >-
+      面向小说写作与 AI 角色扮演的一体化 AI 创作平台，内置 AI Agents、Skills、SubAgent
+      协作、自动化、图像生成与项目版本管理。
+    usage: >
+      Denova 是一站式 AI 创作平台，用于小说写作与 AI 角色扮演游戏。
+
+
+      首次使用：
+
+      1. 打开应用后请先进入「设置」，添加语言模型（LLM）服务商并配置 API Key（支持
+      DeepSeek、OpenAI、Anthropic、Gemini 及自定义兼容端点），再选择模型并测试连接
+
+      2. 需要生成图片时，在设置中配置图像模型（OpenAI、xAI、火山引擎 Seedream、Google Gemini、ComfyUI 等）
+
+      3. 从「写作」开始创作，或从「游戏」创建互动故事线；也可以导入已有小说继续创作
+
+
+      数据说明：
+
+      - 写作项目与书籍保存在 /lzcapp/var/workspace，应用配置与设置保存在 /lzcapp/var/denova，重启或升级不会丢失
+
+      - 通过懒猫账号登录后即可直接使用，无需额外注册
+  en-US:
+    name: Denova
+    description: >-
+      An AI creative platform for novel writing and AI-generated RPG, with
+      built-in AI agents, skills, subagent workflows, automations, image
+      generation, and version control.
+    usage: >
+      Denova is an all-in-one AI creative platform for novel writing and
+      AI-driven role-playing games.
+
+
+      First steps:
+
+      1. Open Settings and add a language model (LLM) provider with your API key
+      (DeepSeek, OpenAI, Anthropic, Gemini, or any OpenAI-compatible endpoint),
+      pick a model, and test the connection
+
+      2. To generate images, configure an image model in Settings (OpenAI, xAI,
+      Volcano Seedream, Google Gemini, ComfyUI, etc.)
+
+      3. Start writing from "Writing", create an interactive story from "Game",
+      or import an existing novel to continue
+
+
+      Data:
+
+      - Projects and books are stored in /lzcapp/var/workspace; app config lives
+      in /lzcapp/var/denova. Data survives restarts and upgrades
+
+      - Sign in with your LazyCat account and use it directly, no extra
+      registration needed
+permissions:
+  required:
+    - net.internet
