@@ -21,10 +21,19 @@ images: []
 stores:
   official:
     enabled: true
-    skip_if_version_exists: true
-    create_if_missing: true
-    changelog_locales:
-      - zh-CN
-      - en-US
+    application:
+      brief: "AI 小说创作工作台"
+      description: "Denova 面向长篇创作：用写作 Agent 讨论灵感与设定、生成大纲与细纲、按细纲逐章成稿，并带版本管理与资料库。"
+      keywords:
+        - "AI写作"
+        - "小说"
+        - "大纲"
+        - "创作"
+        - "Agent"
+      support_pc: true
+      screenshot_pc_files:
+        - ".github/screenshots/pc-1.png"
+        - ".github/screenshots/pc-2.png"
+        - ".github/screenshots/pc-3.png"
   private:
     enabled: false
