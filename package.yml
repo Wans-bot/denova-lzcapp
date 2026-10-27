@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.denova
-version: 0.5.1-2
+version: 0.6.3
 name: Denova
 description: 面向小说写作与 AI 角色扮演的一体化 AI 创作平台，内置 AI Agents、Skills、SubAgent 协作、自动化、图像生成与项目版本管理。
 author: alfredxw
