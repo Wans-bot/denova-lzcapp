@@ -4,4 +4,4 @@ application:
     - /=http://denova.cloud.lazycat.app.denova.lzcapp:8080
 services:
   denova:
-    image: registry.lazycat.cloud/wans/wans/denova:f41e05b8cdac3edd
+    image: registry.lazycat.cloud/wans/wans-denova-0.6.3:1b7fe0173dc1f48d
